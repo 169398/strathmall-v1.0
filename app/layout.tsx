@@ -6,14 +6,10 @@ import { Toaster } from "sonner";
 import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
-const defaultUrl = process.env.VERCEL_URL
-  ? `https://${process.env.VERCEL_URL}`
-  : "http://localhost:3000";
 
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL(defaultUrl),
 
   title: "Create your online shop today",
   description: "Easy and efficient buying and selling of goods on cumpus",
