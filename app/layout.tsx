@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
-  : "https://strathmall-v1-0.vercel.app/";
+  : "http://localhost:3000";
 
 
 
