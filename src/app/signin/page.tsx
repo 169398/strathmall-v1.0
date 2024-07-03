@@ -1,4 +1,4 @@
-import SignIn from "@/components/auth/signin";
+import SignIn from "@/src/components/auth/signin";
 import React from "react";
 
 export default function page() {
