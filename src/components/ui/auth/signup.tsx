@@ -6,7 +6,7 @@ import { z } from "zod";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
 import { RiArrowRightSFill } from "react-icons/ri";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/button";
 import {
 	Form,
 	FormControl,
@@ -14,8 +14,8 @@ import {
 	FormItem,
 	FormLabel,
 	FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
+} from "@/src/components/ui/form";
+import { Input } from "@/src/components/ui/input";
 import { useState } from "react";
 import Link from "next/link";
 

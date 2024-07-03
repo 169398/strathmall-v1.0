@@ -15,9 +15,9 @@ import {
 	FormItem,
 	FormLabel,
 	FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { cn } from "@/lib/utils";
+} from "@/src/components/ui/form";
+import { Input } from "@/src/components/ui/input";
+import { cn } from "@/src/lib/utils";
 import Link from "next/link";
 import { Button } from "../button";
 
