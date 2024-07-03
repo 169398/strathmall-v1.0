@@ -30,7 +30,7 @@ export default function SupaAuthVerifyEmail({
 						<Section style={imageSection}></Section>
 						<Section style={upperSection}>
 							<Heading style={h1}>
-								SupaAuth Verify your email address
+								StrathMall Verify your email address
 							</Heading>
 							<Text style={mainText}>
 								{
