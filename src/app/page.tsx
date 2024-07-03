@@ -1,8 +1,7 @@
-import Navbar from "@/components/Navbar";
-import Register from "@/components/auth/register";
-import { Button } from "@/components/ui/button";
+
 import Link from "next/link";
 import React from "react";
+import Navbar from "../components/Navbar";
 
 export default function page() {
 	return (
