@@ -10,7 +10,7 @@ import { z } from "zod";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/button";
 import {
 	Form,
 	FormControl,
@@ -18,11 +18,11 @@ import {
 	FormItem,
 	FormLabel,
 	FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
+} from "@/src/components/ui/form";
+import { Input } from "@/src/components/ui/input";
 import { toast } from "sonner";
-import { createSupabaseBrowser } from "@/lib/supabase/client";
-import { cn } from "@/lib/utils";
+import { createSupabaseBrowser } from "@/src/lib/supabase/client";
+import { cn } from "@/src/lib/utils";
 import Link from "next/link";
 
 const FormSchema = z.object({

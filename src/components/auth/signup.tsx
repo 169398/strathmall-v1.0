@@ -13,8 +13,8 @@ import {
   InputOTPGroup,
   InputOTPSeparator,
   InputOTPSlot,
-} from "@/components/ui/input-otp";
-import { Button } from "@/components/ui/button";
+} from "@/src/components/ui/input-otp";
+import { Button } from "@/src/components/ui/button";
 import {
   Form,
   FormControl,
@@ -22,12 +22,12 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
+} from "@/src/components/ui/form";
+import { Input } from "@/src/components/ui/input";
 import { useState, useTransition } from "react";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
-import { verifyOtp } from "@/actions/auth";
+import { cn } from "@/src/lib/utils";
+import { verifyOtp } from "@/src/actions/auth";
 import { toast } from "sonner";
 import { usePathname, useRouter } from "next/navigation";
 

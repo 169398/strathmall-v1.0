@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/button";
 import { FcGoogle } from "react-icons/fc";
 import { IoLogoGithub } from "react-icons/io5";
-import { createSupabaseBrowser } from "@/lib/supabase/client";
+import { createSupabaseBrowser } from "@/src/lib/supabase/client";
 
 export default function Social({ redirectTo }: { redirectTo: string }) {
 	const loginWithProvider = async (provider: "github" | "google") => {

@@ -1,6 +1,6 @@
 "use server";
 
-import { createSupabaseServer } from "@/lib/supabase/server";
+import { createSupabaseServer } from "@/src/lib/supabase/server";
 
 export const verifyOtp = async (data: {
 	email: string;
